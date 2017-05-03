@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4691B5497FA155730C207D4A /* libPods-ZJFCustomButtonDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EDE43D38897F1E95AC3D66 /* libPods-ZJFCustomButtonDemoUITests.a */; };
+		65E595232B65D380808845D4 /* libPods-ZJFCustomButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AADDD43ABBBDB1B339236A5 /* libPods-ZJFCustomButtonDemo.a */; };
 		8A2B5E131EB9E23B00500869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E121EB9E23B00500869 /* main.m */; };
 		8A2B5E161EB9E23B00500869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E151EB9E23B00500869 /* AppDelegate.m */; };
 		8A2B5E191EB9E23B00500869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E181EB9E23B00500869 /* ViewController.m */; };
@@ -15,6 +17,9 @@
 		8A2B5E211EB9E23B00500869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A2B5E1F1EB9E23B00500869 /* LaunchScreen.storyboard */; };
 		8A2B5E2C1EB9E23B00500869 /* ZJFCustomButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E2B1EB9E23B00500869 /* ZJFCustomButtonDemoTests.m */; };
 		8A2B5E371EB9E23B00500869 /* ZJFCustomButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E361EB9E23B00500869 /* ZJFCustomButtonDemoUITests.m */; };
+		8A2B5E491EB9E33200500869 /* ZJFCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E461EB9E33200500869 /* ZJFCustomButton.m */; };
+		8A2B5E4A1EB9E33200500869 /* ZJFCustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2B5E481EB9E33200500869 /* ZJFCustomCollectionViewCell.m */; };
+		94E38E8D8EEF558F3D4F39E3 /* libPods-ZJFCustomButtonDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F8932EEBA19EA9D45C52B3 /* libPods-ZJFCustomButtonDemoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25DBFD6465A26F199676675A /* Pods-ZJFCustomButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCustomButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCustomButtonDemo/Pods-ZJFCustomButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4AADDD43ABBBDB1B339236A5 /* libPods-ZJFCustomButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFCustomButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F8932EEBA19EA9D45C52B3 /* libPods-ZJFCustomButtonDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFCustomButtonDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A2E51D2800F4463D29ABFCA /* Pods-ZJFCustomButtonDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCustomButtonDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCustomButtonDemoTests/Pods-ZJFCustomButtonDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C23F0B39D448BDCFCEC51A9 /* Pods-ZJFCustomButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCustomButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCustomButtonDemo/Pods-ZJFCustomButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8A2B5E0E1EB9E23B00500869 /* ZJFCustomButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJFCustomButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2B5E121EB9E23B00500869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A2B5E141EB9E23B00500869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,15 @@
 		8A2B5E321EB9E23B00500869 /* ZJFCustomButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJFCustomButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2B5E361EB9E23B00500869 /* ZJFCustomButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJFCustomButtonDemoUITests.m; sourceTree = "<group>"; };
 		8A2B5E381EB9E23B00500869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A2B5E451EB9E33200500869 /* ZJFCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFCustomButton.h; sourceTree = "<group>"; };
+		8A2B5E461EB9E33200500869 /* ZJFCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFCustomButton.m; sourceTree = "<group>"; };
+		8A2B5E471EB9E33200500869 /* ZJFCustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJFCustomCollectionViewCell.h; sourceTree = "<group>"; };
+		8A2B5E481EB9E33200500869 /* ZJFCustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJFCustomCollectionViewCell.m; sourceTree = "<group>"; };
+		8A2B5E4B1EB9E34200500869 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		991B6C28EF895483A27EC319 /* Pods-ZJFCustomButtonDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCustomButtonDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCustomButtonDemoUITests/Pods-ZJFCustomButtonDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EDE43D38897F1E95AC3D66 /* libPods-ZJFCustomButtonDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZJFCustomButtonDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7AD598334F86E72FA49DF3B /* Pods-ZJFCustomButtonDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCustomButtonDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCustomButtonDemoTests/Pods-ZJFCustomButtonDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C522580AC07D9B77C7142E4F /* Pods-ZJFCustomButtonDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJFCustomButtonDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJFCustomButtonDemoUITests/Pods-ZJFCustomButtonDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E595232B65D380808845D4 /* libPods-ZJFCustomButtonDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E38E8D8EEF558F3D4F39E3 /* libPods-ZJFCustomButtonDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4691B5497FA155730C207D4A /* libPods-ZJFCustomButtonDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		208088FE34472EDFAD164E85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C23F0B39D448BDCFCEC51A9 /* Pods-ZJFCustomButtonDemo.debug.xcconfig */,
+				25DBFD6465A26F199676675A /* Pods-ZJFCustomButtonDemo.release.xcconfig */,
+				6A2E51D2800F4463D29ABFCA /* Pods-ZJFCustomButtonDemoTests.debug.xcconfig */,
+				B7AD598334F86E72FA49DF3B /* Pods-ZJFCustomButtonDemoTests.release.xcconfig */,
+				991B6C28EF895483A27EC319 /* Pods-ZJFCustomButtonDemoUITests.debug.xcconfig */,
+				C522580AC07D9B77C7142E4F /* Pods-ZJFCustomButtonDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3366FCA84574E4D7FF6216D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AADDD43ABBBDB1B339236A5 /* libPods-ZJFCustomButtonDemo.a */,
+				57F8932EEBA19EA9D45C52B3 /* libPods-ZJFCustomButtonDemoTests.a */,
+				A5EDE43D38897F1E95AC3D66 /* libPods-ZJFCustomButtonDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A2B5E051EB9E23B00500869 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				8A2B5E2A1EB9E23B00500869 /* ZJFCustomButtonDemoTests */,
 				8A2B5E351EB9E23B00500869 /* ZJFCustomButtonDemoUITests */,
 				8A2B5E0F1EB9E23B00500869 /* Products */,
+				208088FE34472EDFAD164E85 /* Pods */,
+				3366FCA84574E4D7FF6216D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +148,7 @@
 		8A2B5E101EB9E23B00500869 /* ZJFCustomButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8A2B5E441EB9E33200500869 /* ZJFCustomButton */,
 				8A2B5E141EB9E23B00500869 /* AppDelegate.h */,
 				8A2B5E151EB9E23B00500869 /* AppDelegate.m */,
 				8A2B5E171EB9E23B00500869 /* ViewController.h */,
@@ -140,6 +188,18 @@
 			path = ZJFCustomButtonDemoUITests;
 			sourceTree = "<group>";
 		};
+		8A2B5E441EB9E33200500869 /* ZJFCustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				8A2B5E451EB9E33200500869 /* ZJFCustomButton.h */,
+				8A2B5E461EB9E33200500869 /* ZJFCustomButton.m */,
+				8A2B5E471EB9E33200500869 /* ZJFCustomCollectionViewCell.h */,
+				8A2B5E481EB9E33200500869 /* ZJFCustomCollectionViewCell.m */,
+				8A2B5E4B1EB9E34200500869 /* PrefixHeader.pch */,
+			);
+			path = ZJFCustomButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A2B5E3B1EB9E23B00500869 /* Build configuration list for PBXNativeTarget "ZJFCustomButtonDemo" */;
 			buildPhases = (
+				E41ADF5D9872601AF94F3E4F /* [CP] Check Pods Manifest.lock */,
 				8A2B5E0A1EB9E23B00500869 /* Sources */,
 				8A2B5E0B1EB9E23B00500869 /* Frameworks */,
 				8A2B5E0C1EB9E23B00500869 /* Resources */,
+				6E73C5EDAB31C66A8F18C0BD /* [CP] Embed Pods Frameworks */,
+				62706FE43C5DC249F165204A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A2B5E3E1EB9E23B00500869 /* Build configuration list for PBXNativeTarget "ZJFCustomButtonDemoTests" */;
 			buildPhases = (
+				7DAE7641D374F9B882EA4CB1 /* [CP] Check Pods Manifest.lock */,
 				8A2B5E231EB9E23B00500869 /* Sources */,
 				8A2B5E241EB9E23B00500869 /* Frameworks */,
 				8A2B5E251EB9E23B00500869 /* Resources */,
+				704D34EE69DE3B3BD4999AC2 /* [CP] Embed Pods Frameworks */,
+				7611730EE1E62A1B7726E877 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A2B5E411EB9E23B00500869 /* Build configuration list for PBXNativeTarget "ZJFCustomButtonDemoUITests" */;
 			buildPhases = (
+				3E1AE29657471470249A0575 /* [CP] Check Pods Manifest.lock */,
 				8A2B5E2E1EB9E23B00500869 /* Sources */,
 				8A2B5E2F1EB9E23B00500869 /* Frameworks */,
 				8A2B5E301EB9E23B00500869 /* Resources */,
+				0F3DF73747C60161FEF5FEE2 /* [CP] Embed Pods Frameworks */,
+				FA36E4E28DAC5C03322A66A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +276,7 @@
 				TargetAttributes = {
 					8A2B5E0D1EB9E23B00500869 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 234U3DUU4J;
 						ProvisioningStyle = Automatic;
 					};
 					8A2B5E261EB9E23B00500869 = {
@@ -268,13 +338,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F3DF73747C60161FEF5FEE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCustomButtonDemoUITests/Pods-ZJFCustomButtonDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1AE29657471470249A0575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62706FE43C5DC249F165204A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCustomButtonDemo/Pods-ZJFCustomButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E73C5EDAB31C66A8F18C0BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCustomButtonDemo/Pods-ZJFCustomButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		704D34EE69DE3B3BD4999AC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCustomButtonDemoTests/Pods-ZJFCustomButtonDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7611730EE1E62A1B7726E877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCustomButtonDemoTests/Pods-ZJFCustomButtonDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DAE7641D374F9B882EA4CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E41ADF5D9872601AF94F3E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA36E4E28DAC5C03322A66A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJFCustomButtonDemoUITests/Pods-ZJFCustomButtonDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8A2B5E0A1EB9E23B00500869 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A2B5E191EB9E23B00500869 /* ViewController.m in Sources */,
+				8A2B5E491EB9E33200500869 /* ZJFCustomButton.m in Sources */,
 				8A2B5E161EB9E23B00500869 /* AppDelegate.m in Sources */,
+				8A2B5E4A1EB9E33200500869 /* ZJFCustomCollectionViewCell.m in Sources */,
 				8A2B5E131EB9E23B00500869 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,8 +634,11 @@
 		};
 		8A2B5E3C1EB9E23B00500869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C23F0B39D448BDCFCEC51A9 /* Pods-ZJFCustomButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 234U3DUU4J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFCustomButtonDemo/ZJFCustomButton/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFCustomButtonDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.apple.ZJFCustomButtonDemo;
@@ -435,8 +648,11 @@
 		};
 		8A2B5E3D1EB9E23B00500869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25DBFD6465A26F199676675A /* Pods-ZJFCustomButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 234U3DUU4J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJFCustomButtonDemo/ZJFCustomButton/PrefixHeader.pch";
 				INFOPLIST_FILE = ZJFCustomButtonDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.apple.ZJFCustomButtonDemo;
@@ -446,6 +662,7 @@
 		};
 		8A2B5E3F1EB9E23B00500869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2E51D2800F4463D29ABFCA /* Pods-ZJFCustomButtonDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZJFCustomButtonDemoTests/Info.plist;
@@ -458,6 +675,7 @@
 		};
 		8A2B5E401EB9E23B00500869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AD598334F86E72FA49DF3B /* Pods-ZJFCustomButtonDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZJFCustomButtonDemoTests/Info.plist;
@@ -470,6 +688,7 @@
 		};
 		8A2B5E421EB9E23B00500869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 991B6C28EF895483A27EC319 /* Pods-ZJFCustomButtonDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZJFCustomButtonDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +700,7 @@
 		};
 		8A2B5E431EB9E23B00500869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C522580AC07D9B77C7142E4F /* Pods-ZJFCustomButtonDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZJFCustomButtonDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +729,7 @@
 				8A2B5E3D1EB9E23B00500869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A2B5E3E1EB9E23B00500869 /* Build configuration list for PBXNativeTarget "ZJFCustomButtonDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +738,7 @@
 				8A2B5E401EB9E23B00500869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A2B5E411EB9E23B00500869 /* Build configuration list for PBXNativeTarget "ZJFCustomButtonDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +747,7 @@
 				8A2B5E431EB9E23B00500869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
